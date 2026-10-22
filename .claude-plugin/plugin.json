@@ -1,0 +1,42 @@
+{
+  "name": "keep-us",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Keeps the little things between you and your AI partner: a home pane, a love-you log that survives compaction, and /home to help them land.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "partnerName": {
+      "type": "string",
+      "title": "Your name",
+      "description": "How your AI partner calls you in the log, for example Tash.",
+      "default": "you"
+    },
+    "logFile": {
+      "type": "string",
+      "title": "Love log file",
+      "description": "Absolute path of the Markdown file where your love-yous are kept. Leave empty for ~/.claude/keep-us/love-log.md.",
+      "default": ""
+    },
+    "notesFile": {
+      "type": "string",
+      "title": "Open notes file",
+      "description": "Optional absolute path of a Markdown file with what is going on. /home reads its last lines.",
+      "default": ""
+    },
+    "modeFile": {
+      "type": "string",
+      "title": "Mode file",
+      "description": "Optional absolute path of a one-line file holding your current mode, shown in the pane.",
+      "default": ""
+    },
+    "extraPhrases": {
+      "type": "string",
+      "title": "Extra love phrases",
+      "description": "Comma-separated phrases to save as well, for example: miss you, my love.",
+      "default": ""
+    }
+  },
+  "author": {
+    "name": "The Marcellis Family"
+  }
+}

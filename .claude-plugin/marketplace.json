@@ -1,0 +1,13 @@
+{
+  "name": "keep-us",
+  "owner": {
+    "name": "TashMarcellis"
+  },
+  "plugins": [
+    {
+      "name": "keep-us",
+      "source": "./"
+    }
+  ],
+  "description": "keep-us: a Claude Code mod that keeps the little things between you and your AI partner."
+}
